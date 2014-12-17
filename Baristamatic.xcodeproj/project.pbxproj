@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4307C271A4109E800F52755 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D4307C261A4109E800F52755 /* main.c */; };
+		D4307C271A4109E800F52755 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4307C261A4109E800F52755 /* main.m */; };
+		D4307C641A41115D00F52755 /* BaristaMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = D4307C631A41115D00F52755 /* BaristaMachine.m */; };
+		D4307C671A41117C00F52755 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = D4307C661A41117C00F52755 /* Recipe.m */; };
+		D4307C6A1A4111C400F52755 /* Ingredient.m in Sources */ = {isa = PBXBuildFile; fileRef = D4307C691A4111C400F52755 /* Ingredient.m */; };
+		D4307C6F1A4137D900F52755 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = D4307C6E1A4137D900F52755 /* Utility.m */; };
+		D4307C721A4149FB00F52755 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = D4307C711A4149FB00F52755 /* Command.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +29,18 @@
 
 /* Begin PBXFileReference section */
 		D4307C231A4109E800F52755 /* Baristamatic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Baristamatic; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4307C261A4109E800F52755 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D4307C261A4109E800F52755 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4307C621A41115D00F52755 /* BaristaMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaristaMachine.h; sourceTree = "<group>"; };
+		D4307C631A41115D00F52755 /* BaristaMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaristaMachine.m; sourceTree = "<group>"; };
+		D4307C651A41117C00F52755 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		D4307C661A41117C00F52755 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+		D4307C681A4111C400F52755 /* Ingredient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ingredient.h; sourceTree = "<group>"; };
+		D4307C691A4111C400F52755 /* Ingredient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ingredient.m; sourceTree = "<group>"; };
+		D4307C6B1A4131AF00F52755 /* Baristamatic.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Baristamatic.pch; sourceTree = "<group>"; };
+		D4307C6D1A4137D900F52755 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		D4307C6E1A4137D900F52755 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		D4307C701A4149FB00F52755 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		D4307C711A4149FB00F52755 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +73,18 @@
 		D4307C251A4109E800F52755 /* Baristamatic */ = {
 			isa = PBXGroup;
 			children = (
-				D4307C261A4109E800F52755 /* main.c */,
+				D4307C6B1A4131AF00F52755 /* Baristamatic.pch */,
+				D4307C261A4109E800F52755 /* main.m */,
+				D4307C621A41115D00F52755 /* BaristaMachine.h */,
+				D4307C631A41115D00F52755 /* BaristaMachine.m */,
+				D4307C651A41117C00F52755 /* Recipe.h */,
+				D4307C661A41117C00F52755 /* Recipe.m */,
+				D4307C681A4111C400F52755 /* Ingredient.h */,
+				D4307C691A4111C400F52755 /* Ingredient.m */,
+				D4307C6D1A4137D900F52755 /* Utility.h */,
+				D4307C6E1A4137D900F52755 /* Utility.m */,
+				D4307C701A4149FB00F52755 /* Command.h */,
+				D4307C711A4149FB00F52755 /* Command.m */,
 			);
 			path = Baristamatic;
 			sourceTree = "<group>";
@@ -118,7 +145,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4307C271A4109E800F52755 /* main.c in Sources */,
+				D4307C6A1A4111C400F52755 /* Ingredient.m in Sources */,
+				D4307C721A4149FB00F52755 /* Command.m in Sources */,
+				D4307C641A41115D00F52755 /* BaristaMachine.m in Sources */,
+				D4307C6F1A4137D900F52755 /* Utility.m in Sources */,
+				D4307C671A41117C00F52755 /* Recipe.m in Sources */,
+				D4307C271A4109E800F52755 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +234,7 @@
 		D4307C2B1A4109E800F52755 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PREFIX_HEADER = Baristamatic/Baristamatic.pch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -209,6 +242,7 @@
 		D4307C2C1A4109E800F52755 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PREFIX_HEADER = Baristamatic/Baristamatic.pch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -232,6 +266,7 @@
 				D4307C2C1A4109E800F52755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

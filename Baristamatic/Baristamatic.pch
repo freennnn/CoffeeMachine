@@ -1,0 +1,18 @@
+//
+//  Baristamatic.pch
+//  Baristamatic
+//
+//  Created by alexander.pranevich on 12/16/14.
+//  Copyright (c) 2014 AP. All rights reserved.
+//
+
+#ifndef Baristamatic_Baristamatic_pch
+#define Baristamatic_Baristamatic_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Cocoa/Cocoa.h>
+#import "Utility.h"
+
+#endif
